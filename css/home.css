@@ -1,0 +1,53 @@
+#home_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#home_main h1 {
+  font-size: 4rem;
+}
+
+.half_half {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  width: 100%;
+
+  filter: blur(10px);
+  transition: filter 0.2s ease-in-out;
+}
+
+.half_half div {
+  width: 50%;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.half_half:hover {
+  filter: blur(0px);
+}
+
+#half_1_left {
+  background-image: url("../image/godot1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#half_3_right p,
+#half_2_left p,
+#half_1_right p {
+  text-align: center;
+
+  margin: 20px;
+  font-size: 3rem;
+}
