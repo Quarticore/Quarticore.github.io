@@ -70,3 +70,49 @@ body {
 .menu_item {
   padding: 20px;
 }
+
+#about_main,
+#github_main,
+#games_main {
+  padding: 10px;
+}
+
+#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.member_card {
+  margin: 20px;
+  padding: 20px;
+  width: 16%;
+
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+
+.member_image {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member_image img {
+  width: 50%;
+  height: 50%;
+
+  border-radius: 50%;
+}
