@@ -116,3 +116,29 @@ body {
 
   border-radius: 50%;
 }
+
+.member_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member_links img {
+  width: 20px;
+  height: 20px;
+
+  padding: 4px;
+}
+
+#about_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#about_body p {
+  padding: 10px;
+  font-size: 1.2rem;
+}
