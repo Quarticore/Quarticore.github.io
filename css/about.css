@@ -23,6 +23,14 @@
   border: 1px solid #fff;
 
   height: 100%;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.member_card:hover {
+  /* Make grow slightly larger on hover */
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .member_image {

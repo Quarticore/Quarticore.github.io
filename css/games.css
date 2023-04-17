@@ -1,0 +1,49 @@
+#games_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  width: 100%;
+}
+
+.game_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  width: 20%;
+  height: 200px;
+
+  border-radius: 6px;
+  border: 1px solid #fff;
+
+  padding: 10px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.game_card:hover {
+  /* Make grow slightly larger on hover */
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.game_image {
+  height: 70%;
+  width: 100%;
+
+  margin: 10px;
+
+  background-image: url();
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game_name {
+  font-size: 2rem;
+}
